@@ -1,0 +1,10 @@
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    padding: 10px;
+}

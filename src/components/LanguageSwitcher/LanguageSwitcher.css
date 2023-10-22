@@ -1,0 +1,37 @@
+.language-title{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.button-english{
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.7em;
+    border: 1px solid #fff;
+    border-style: solid none solid solid;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.button-spanish{
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.7em;
+    border: 1px solid #fff;
+    border-style: solid none solid solid;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 500px){
+    .language-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em;
+    }
+}

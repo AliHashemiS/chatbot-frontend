@@ -1,0 +1,22 @@
+.message-list{
+    height: 20em;
+    overflow: auto;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: right;
+    margin-left: 2em;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-right: 2em;
+}
